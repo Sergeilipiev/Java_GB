@@ -6,14 +6,14 @@ public class Library {
 
   public static void main(String[] args) {
 
-    int len = getNumberByUser("Введите количество элементов ");
-    int[] items = createArray(len);
-    fillArray(items, 0, 10);
-    System.out.println(print2(items));
-
-    int evenCount = getCountEvenItems(items);
-    int[] evenItems = getEvenItems(items, evenCount);
-    System.out.println(print2(evenItems));
+//    int len = getNumberByUser("Введите количество элементов ");
+//    int[] items = createArray(len);
+//    fillArray(items, 0, 10);
+//    System.out.println(print2(items));
+//
+//    int evenCount = getCountEvenItems(items);
+//    int[] evenItems = getEvenItems(items, evenCount);
+//    System.out.println(print2(evenItems));
 
   }
 

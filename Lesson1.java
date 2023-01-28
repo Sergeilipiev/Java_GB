@@ -1,6 +1,6 @@
 //Написать программу вычисления n-ого треугольного числа
 
-public class Task1 {
+public class Lesson1 {
     public static void main(String[] args) {
         int a = Library.getNumberByUser("Введите число : ");
         System.out.println("Треугольное число = " + triangle(a));
