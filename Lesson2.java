@@ -27,7 +27,7 @@ public class Lesson2 {
         task3();
     }
 
-    public static void task1() throws IOException {
+    private static void task1() throws IOException {
         String fileStr = readFile("src/2_1.txt");
         String[] strArr = fileStr.split(", ");
         for (String name : strArr) {
@@ -37,14 +37,14 @@ public class Lesson2 {
         System.out.println(sql);
     }
 
-    public static void task2() throws IOException {
+    private static void task2() throws IOException {
         int[] sortArr = {4, 7, 8, 23, 1, 65};
         bubbleSort(sortArr);
         for (int j : sortArr) {
             System.out.print(j + "\n");
         }
     }
-    public static void task3() throws IOException {
+    private static void task3() throws IOException {
         String fileStr = readFile("src/2_3.txt");
         fileStr = clear(fileStr, new String[]{"[","]"});
         String[] strArr = fileStr.split(", ");
